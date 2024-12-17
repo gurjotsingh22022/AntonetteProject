@@ -10153,3 +10153,153 @@ h6,
   list-style: none;
 }
 
+
+.pricing-form
+{
+  background-color: #1a1a1a;
+}
+
+.pricing-form .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 650px;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.pricing-form .title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #00bfff;
+}
+
+.pricing-form .title::before {
+  width: 18px;
+  height: 18px;
+}
+
+.pricing-form .title::after {
+  width: 18px;
+  height: 18px;
+  animation: pulse 1s linear infinite;
+}
+
+.pricing-form .title::before,
+.pricing-form .title::after {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  left: 0px;
+  background-color: #00bfff;
+}
+
+.pricing-form .message, 
+.pricing-form .signin {
+  font-size: 14.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pricing-form .signin {
+  text-align: center;
+}
+
+.pricing-form .signin a:hover {
+  text-decoration: underline royalblue;
+}
+
+.pricing-form .signin a {
+  color: #00bfff;
+}
+
+.pricing-form .flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.pricing-form .form label {
+  position: relative;
+}
+
+.pricing-form .form label .input {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 20px 05px 05px 10px;
+  outline: 0;
+  border: 1px solid rgba(105, 105, 105, 0.397);
+  border-radius: 10px;
+}
+
+.pricing-form .form label .input + span {
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+}
+
+.pricing-form .form label .input:placeholder-shown + span {
+  top: 12.5px;
+  font-size: 0.9em;
+}
+
+.pricing-form .form label .input:focus + span,
+.pricing-form .form label .input:valid + span {
+  color: #00bfff;
+  top: 0px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.pricing-form .input {
+  font-size: medium;
+}
+
+.pricing-form .submit {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  transform: .3s ease;
+  background-color: #00bfff;
+}
+
+.pricing-form .submit:hover {
+  background-color: #00bfff96;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+
+.flex
+{
+  display: flex;
+}

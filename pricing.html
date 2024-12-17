@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Latest Blogs - Shaye's Sparkling Touch</title>
+    <title>Pricing - Shaye's Sparkling Touch</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"><meta name="keywords" content="Sharyes Sparkling Touch, cleaning services, home cleaning, Toronto, Mississauga, Brampton, GTA cleaning services, affordable cleaning, best cleaning service, Cleaning service in Toronto, Cleaning service in Mississauga, Cleaning service in Brampton." />
 
     <meta name="description" content="Sharyes Sparkling Touch, Best home cleaning services in the GTA, including Toronto, Mississauga, Brampton, and North York. Affordable, reliable, and top-quality. Cleaning service in Toronto, Cleaning service in Mississauga, Cleaning service in Brampton." />
@@ -98,25 +98,106 @@
     </div>
     <!-- Header End -->
 
+    <div class="pricing-form w-100 flex align-items-center justify-content-center py-5 px-3">
 
-    <!-- Page Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5">
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+            <p class="title">Get Pricing </p>
+            <p class="message">Get a pricing quote for free on your email</p>
+                    
+            <input type="hidden" name="access_key" value="6ce6e107-5a14-4a96-9d0d-bd01cee9da90">
+            <input type="hidden" name="Message_Type" value="This is a pricing quote request">
+            <label>
+                <input class="input" type="text" placeholder="" name="Name" required>
+                <span>Name</span>
+            </label> 
+                    
+            <label>
+                <input class="input" type="email" placeholder="" name="Email" required>
+                <span>Email</span>
+            </label> 
+                
+            <label>
+                <input class="input" type="tel" placeholder="" name="Phone" required>
+                <span>Phone Number</span>
+            </label>
+            <label>
+                <input class="input" type="text" placeholder="" name="Area" required>
+                <span>Area (Sq Ft)</span>
+            </label>
+            <label>
+                <input class="input" type="text" placeholder="" name="Bedrooms" required>
+                <span>Number of Bedrooms</span>
+            </label>
+            <label>
+                <input class="input" type="text" placeholder="" name="Bathrooms" required>
+                <span>Number of Bathrooms</span>
+            </label>
+            <label>
+                <textarea class="input" type="text" placeholder="" name="Address" required></textarea>
+                <span>Address</span>
+            </label>
+            <button class="submit">Get Estimated Pricing</button>
+        </form>
+    </div>
+        <style>
+            /* From Uiverse.io by ammarsaa */ 
+
+        </style>
+
+
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-testimonial py-5">
         <div class="container py-5">
-            <div class="row align-items-center py-4">
-                <div class="col-md-6 text-center text-md-left">
-                    <h1 class="display-4 mb-4 mb-md-0 text-secondary text-uppercase">Blog</h1>
+            <div class="row">
+                <div class="col-lg-7 pt-lg-5 pb-5">
+                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Testimonial</h6>
+                    <h1 class="section-title text-white mb-5">What Our Clients Say</h1>
+                    <div class="owl-carousel testimonial-carousel position-relative">
+                        <div class="d-flex flex-column text-white">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid" src="img/noimage.png" alt="">
+                                <div class="ml-3">
+                                    <h5 class="text-primary">Sarah L.</h5>
+                                    <i>Toronto</i>
+                                </div>
+                            </div>
+                            <p>"I couldn't be happier with the cleaning service provided by Shaye's Sparkling Touch! Living in Toronto, I've struggled to find reliable cleaners who deliver quality every time. The team did a thorough job, and my house has never looked better. Whether it's regular cleaning or deep cleaning, they've exceeded my expectations. Highly recommend them for anyone in the GTA looking for affordable and top-notch cleaning services!"
+
+                            </p>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                                <div class="ml-3">
+                                    <h5 class="text-primary">John M.</h5>
+                                    <i>Mississauga</i>
+                                </div>
+                            </div>
+                            <p>"If you’re looking for the best cleaning services in Mississauga, look no further! I booked SHaes Sparkling Touch for a post-renovation clean, and they left my home spotless. Their attention to detail and professionalism truly sets them apart. I'll definitely be using their services again for regular cleaning. They are hands down the <b>best cleaning company in the GTA!</b>"</p>
+                        </div>
+                        <div class="d-flex flex-column text-white">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid" src="img/testimonial-priya.jpg" alt="">
+                                <div class="ml-3">
+                                    <h5 class="text-primary">Priya S.</h5>
+                                    <i>Brampton</i>
+                                </div>
+                            </div>
+                            <p>"After moving out of my apartment in <b>Brampton</b>, I needed a last-minute move-out cleaning service. Shaye's Sparkling Touch was quick to respond and did an incredible job. The floors, windows, and kitchen were sparkling clean! Their <b>affordable cleaning services</b> made the whole process stress-free. I highly recommend them to anyone in <b>Brampton or the GTA!</b>"</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="btn btn-sm btn-outline-light" href="/">Home</a>
-                        <i class="fas fa-angle-double-right text-light mx-2"></i>
-                        <a class="btn btn-sm btn-outline-light disabled" href="">Blog</a>
+                <div class="col-lg-5" style="min-height: 400px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="img/testimonial.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Page Header End -->
+    <!-- Testimonial End -->
 
 
     <!-- Blog Start -->
@@ -204,7 +285,7 @@
                     text-overflow: ellipsis;
                     display: -webkit-box;
                     -webkit-line-clamp: 3;
-                    -webkit-box-orient: vertical;" class="mb-4">Home renovations can be exciting, but they also leave a mess that’s often difficult to clean. After all the hard work of renovating your home, the last thing you want to deal with is leftover dust, debris, and grime. </p>
+                    -webkit-box-orient: vertical;" class="mb-4">Home renovations can be exciting, but they also leave a mess that's often difficult to clean. After all the hard work of renovating your home, the last thing you want to deal with is leftover dust, debris, and grime. </p>
                     <a class="btn btn-sm btn-primary py-2" href="The-Benefits-of-Post-Renovation-Cleaning-Services-in-Toronto-and-the-GTA.html">Read More</a>
                 </div>
             </div>
@@ -213,10 +294,6 @@
     <!-- Blog End -->
 
     <style>
-        input {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
 }
 .accordion-wrapper {
     border-radius: 8px;
@@ -281,194 +358,8 @@ input:checked ~ .accordion-content {
   
     </style>
 
-    <!-- Blog Start -->
-    <div class="container-fluid pt-5">
-        <div class="container pt-5">
-            <div class="row align-items-end mb-4">
-                <div class="col-lg-6">
-                    <h6 class="text-secondary font-weight-semi-bold text-uppercase mb-3">Answering all of your questions</h6>
-                    <h1 class="section-title mb-3">FAQs</h1>
-                </div>
-            </div>
-            <div class="accordion-wrapper">
-                <!-- General Cleaning Services FAQs -->
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq1" checked>
-                    <label class="accordion-label" for="faq1">What types of cleaning services do you offer in the GTA?</label>
-                    <div class="accordion-content">
-                        <p>We offer a variety of cleaning services throughout the GTA, including residential cleaning, commercial cleaning, post-renovation cleaning, move-in/move-out cleaning, carpet cleaning, window cleaning, and seasonal cleaning services.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq2">
-                    <label class="accordion-label" for="faq2">Which areas do you serve in the Greater Toronto Area?</label>
-                    <div class="accordion-content">
-                        <p>We provide cleaning services across Toronto, Mississauga, Brampton, North York, Etobicoke, and the entire GTA.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq3">
-                    <label class="accordion-label" for="faq3">What is included in a standard cleaning service?</label>
-                    <div class="accordion-content">
-                        <p>Our standard cleaning includes dusting, vacuuming, mopping floors, wiping down surfaces, and cleaning bathrooms and kitchens. We can customize the service to meet your specific needs.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq4">
-                    <label class="accordion-label" for="faq4">How do I book a cleaning service with you?</label>
-                    <div class="accordion-content">
-                        <p>You can book online through our website or call us directly. We offer flexible scheduling to fit your busy lifestyle!</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq5">
-                    <label class="accordion-label" for="faq5">Are your cleaning services eco-friendly?</label>
-                    <div class="accordion-content">
-                        <p>Yes, we provide eco-friendly cleaning options with safe, green cleaning products that are effective and safe for children and pets.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq6">
-                    <label class="accordion-label" for="faq6">Do you offer same-day or emergency cleaning services?</label>
-                    <div class="accordion-content">
-                        <p>We try to accommodate last-minute requests based on availability. Contact us to check for same-day cleaning services in the GTA.</p>
-                    </div>
-                </div>
-                
-                <!-- Residential Cleaning FAQs -->
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq7">
-                    <label class="accordion-label" for="faq7">What does residential cleaning include?</label>
-                    <div class="accordion-content">
-                        <p>Our residential cleaning services include a thorough cleaning of all rooms, dusting, mopping, vacuuming, and disinfecting surfaces in the kitchen and bathrooms.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq8">
-                    <label class="accordion-label" for="faq8">Do you offer apartment and condo cleaning in Toronto?</label>
-                    <div class="accordion-content">
-                        <p>Yes, we offer professional apartment and condo cleaning services across Toronto, North York, and surrounding areas.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq9">
-                    <label class="accordion-label" for="faq9">How often should I schedule a home cleaning?</label>
-                    <div class="accordion-content">
-                        <p>It depends on your lifestyle and needs. We offer weekly, bi-weekly, and monthly cleaning options for maximum flexibility.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq10">
-                    <label class="accordion-label" for="faq10">Do I need to be home during the cleaning?</label>
-                    <div class="accordion-content">
-                        <p>No, you don’t need to be home. We can arrange access and handle all cleaning while you’re out, ensuring a spotless home for your return.</p>
-                    </div>
-                </div>
-                
-                <!-- Move-In / Move-Out Cleaning FAQs -->
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq11">
-                    <label class="accordion-label" for="faq11">What is included in move-out cleaning?</label>
-                    <div class="accordion-content">
-                        <p>Our move-out cleaning includes deep cleaning of floors, cabinets, appliances, bathrooms, and windows, ensuring you leave your space spotless.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq12">
-                    <label class="accordion-label" for="faq12">How long does a move-in or move-out cleaning take?</label>
-                    <div class="accordion-content">
-                        <p>The time depends on the size and condition of the home, but generally, move-in/move-out cleaning can take 3-6 hours.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq13">
-                    <label class="accordion-label" for="faq13">Do you offer move-out cleaning in Mississauga and Brampton?</label>
-                    <div class="accordion-content">
-                        <p>Yes, we provide move-out cleaning services across the GTA, including Mississauga, Brampton, and Toronto.</p>
-                    </div>
-                </div>
-                
-                <!-- Deep Cleaning and Specialty Cleaning FAQs -->
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq14">
-                    <label class="accordion-label" for="faq14">What is the difference between regular and deep cleaning?</label>
-                    <div class="accordion-content">
-                        <p>Regular cleaning is a maintenance clean, while deep cleaning involves a more thorough approach, covering hard-to-reach areas, grime buildup, and intensive disinfecting.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq15">
-                    <label class="accordion-label" for="faq15">Do you offer deep cleaning services in North York?</label>
-                    <div class="accordion-content">
-                        <p>Yes, our deep cleaning services are available throughout North York and the entire GTA.</p>
-                    </div>
-                </div>
-                
-                <!-- Booking and Payment FAQs -->
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq16">
-                    <label class="accordion-label" for="faq16">How do I schedule a cleaning service?</label>
-                    <div class="accordion-content">
-                        <p>You can schedule directly on our website or call us for immediate booking options in Toronto, Mississauga, Brampton, and the GTA.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq17">
-                    <label class="accordion-label" for="faq17">What forms of payment do you accept?</label>
-                    <div class="accordion-content">
-                        <p>We accept e-transfers, and cash payments.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq18">
-                    <label class="accordion-label" for="faq18">Do you provide free estimates?</label>
-                    <div class="accordion-content">
-                        <p>Yes, we provide free cleaning service estimates to help you determine the best plan for your needs.</p>
-                    </div>
-                </div>
-            
-                <!-- General Cleaning Service Queries FAQs -->
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq19">
-                    <label class="accordion-label" for="faq19">Where can I find the best cleaning services in Toronto?</label>
-                    <div class="accordion-content">
-                        <p>We provide top-rated cleaning services throughout Toronto and the GTA. Our team is known for high-quality work, attention to detail, and customer satisfaction. Book online or contact us to experience our exceptional cleaning services.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq20">
-                    <label class="accordion-label" for="faq20">What should I look for in a professional cleaning service in Mississauga?</label>
-                    <div class="accordion-content">
-                        <p>When selecting a cleaning service in Mississauga, look for factors like reliability, experience, customer reviews, and customizable cleaning plans. We pride ourselves on offering tailored cleaning solutions that meet all of these criteria.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq21">
-                    <label class="accordion-label" for="faq21">Is it worth hiring a cleaning service for my home or office in Brampton?</label>
-                    <div class="accordion-content">
-                        <p>Absolutely! A professional cleaning service saves you time and ensures thorough cleaning with top-quality results. Our Brampton team is equipped to handle both residential and commercial cleaning, making it a worthwhile investment.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq22">
-                    <label class="accordion-label" for="faq22">How do I know if a cleaning service is affordable and reliable?</label>
-                    <div class="accordion-content">
-                        <p>Look for transparent pricing, positive customer feedback, and a clear service breakdown. We offer competitive rates and have a track record of reliability and quality, making our services some of the best and most affordable in the GTA.</p>
-                    </div>
-                </div>
-                <div class="accordion">
-                    <input type="radio" name="radio-a" id="faq23">
-                    <label class="accordion-label" for="faq23">Are there eco-friendly cleaning services available in North York?</label>
-                    <div class="accordion-content">
-                        <p>Yes, we offer eco-friendly cleaning options in North York and the GTA. Our cleaning products are safe for families, pets, and the environment, ensuring a clean home without harmful chemicals.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
 
-
+    
 
 
     <!-- Footer Start -->
@@ -547,7 +438,6 @@ input:checked ~ .accordion-content {
         </div>
     </div>
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary px-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
