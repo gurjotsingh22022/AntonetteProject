@@ -19,8 +19,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #FFC600;
-  --secondary: #23A036;
+  --primary: blue;
+  --secondary: purple;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -2380,40 +2380,40 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #212529;
-  background-color: #FFC600;
-  border-color: #FFC600;
+  color: #fff;
+  background-color: blue;
+  border-color: blue;
 }
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #d9a800;
-  border-color: #cc9e00;
+  background-color: #1100ff;
+  border-color: #1100ff;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  color: #212529;
-  background-color: #d9a800;
-  border-color: #cc9e00;
-  box-shadow: 0 0 0 0.2rem rgba(222, 174, 6, 0.5);
+  color: #fff;
+  background-color: blue;
+  border-color: #0000df;
+  box-shadow: 0 0 0 0.2rem rgba(28, 6, 222, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #212529;
-  background-color: #FFC600;
-  border-color: #FFC600;
+  color: #c2c2c2;
+  background-color: #5500ff;
+  border-color: #0004ff;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #212529;
-  background-color: #cc9e00;
-  border-color: #bf9500;
+  color: #fff;
+  background-color: blue;
+  border-color: blue;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(222, 174, 6, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(6, 31, 222, 0.5);
 }
 
 .btn-secondary {
@@ -6364,7 +6364,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FFC600 !important;
+  background-color: blue !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6374,7 +6374,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #23A036 !important;
+  background-color: purple !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9542,7 +9542,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #23A036 !important;
+  color: #ba8b00 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10156,7 +10156,8 @@ h6,
 
 .pricing-form
 {
-  background-color: #1a1a1a;
+  background-color: white;
+  border-top: 1px solid #000;
 }
 
 .pricing-form .form {
