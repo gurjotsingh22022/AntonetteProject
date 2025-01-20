@@ -5,7 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -19,8 +19,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: blue;
-  --secondary: purple;
+  --primary: #FFC600;
+  --secondary: #23A036;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -2380,40 +2380,40 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: blue;
-  border-color: blue;
+  color: #212529;
+  background-color: #FFC600;
+  border-color: #FFC600;
 }
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #1100ff;
-  border-color: #1100ff;
+  background-color: #d9a800;
+  border-color: #cc9e00;
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  color: #fff;
-  background-color: blue;
-  border-color: #0000df;
-  box-shadow: 0 0 0 0.2rem rgba(28, 6, 222, 0.5);
+  color: #212529;
+  background-color: #d9a800;
+  border-color: #cc9e00;
+  box-shadow: 0 0 0 0.2rem rgba(222, 174, 6, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
-  color: #c2c2c2;
-  background-color: #5500ff;
-  border-color: #0004ff;
+  color: #212529;
+  background-color: #FFC600;
+  border-color: #FFC600;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: blue;
-  border-color: blue;
+  color: #212529;
+  background-color: #cc9e00;
+  border-color: #bf9500;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(6, 31, 222, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(222, 174, 6, 0.5);
 }
 
 .btn-secondary {
@@ -4127,8 +4127,6 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -6364,7 +6362,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: blue !important;
+  background-color: #FFC600 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6374,7 +6372,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: purple !important;
+  background-color: #23A036 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9542,7 +9540,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #ba8b00 !important;
+  color: #23A036 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -10156,8 +10154,7 @@ h6,
 
 .pricing-form
 {
-  background-color: white;
-  border-top: 1px solid #000;
+  background-color: #1a1a1a;
 }
 
 .pricing-form .form {
@@ -10303,4 +10300,43 @@ h6,
 .flex
 {
   display: flex;
+}
+
+.logo-img
+{
+  height: 130px;
+  width: 130px;
+}
+
+
+.logo-img
+{
+  height: 100%;
+}
+
+.inner-head
+{
+  margin: 0 -15px;
+}
+
+.bg-purple
+{
+  background-color: purple;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    min-height: 60px;
+  }
+
+  .logo-img
+  {
+    height: 80px;
+    width: 80px;
+  }
+
+  .inner-head
+{
+  margin: 0;
+}
 }
